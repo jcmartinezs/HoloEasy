@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Holo Easy</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="{{url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+
+    <!-- Custom Fonts -->
+    <link href="{{url_for('static', filename='vendor/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
+    <link href="{{url_for('static', filename='css/agency.min.css')}}" rel="stylesheet">
+    <link href="{{url_for('static', filename='css/style.css')}}" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+    <style type="text/css">
+        a[disabled] {
+          opacity: .4;
+          cursor: default !important;
+          pointer-events: none;
+        }
+    </style>
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="/">Holo Easy</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="/"></a>
+                    </li>
+                    <li style="display: none;">
+                        <a class="page-scroll" name="portfolio" href="#portfolio">Portfolio</a>
+                    </li>
+                    <!--<li>
+                        <a class="page-scroll" href="#services">¿Qué es?</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="app.html">Empezar</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>-->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <!--<header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Welcome To Our Studio!</div>
+                <div class="intro-heading">It's Nice To Meet You</div>
+                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+            </div>
+        </div>
+    </header>-->
+
+    <!-- Services Section -->
+    <section id="holoeasy">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="">
+                        
+                        <div class="stepwizard">
+                            <div class="stepwizard-row setup-panel">
+                                <div class="stepwizard-step col-xs-3"> 
+                                    <a href="#step-1" type="button" class="btn btn-success btn-circle">1</a>
+                                    <p><small>Imagen</small></p>
+                                </div>
+                                <div class="stepwizard-step col-xs-3"> 
+                                    <a href="#step-2" type="button" class="btn btn-default btn-circle" disabled="disabled">2</a>
+                                    <p><small>Tipo de Aplicación</small></p>
+                                </div>
+                                <div class="stepwizard-step col-xs-3"> 
+                                    <a href="#step-3" type="button" class="btn btn-default btn-circle" disabled="disabled">3</a>
+                                    <p><small>Cuantificar</small></p>
+                                </div>
+                                <div class="stepwizard-step col-xs-3"> 
+                                    <a href="#step-4" type="button" class="btn btn-default btn-circle" disabled="disabled">4</a>
+                                    <p><small>Parametros</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <form role="form" name="formulario">
+                            <input type="hidden" name="tipoimg" value="file">
+                            <input type="hidden" name="aplicacion_optica" value="SI">
+                            <input type="hidden" name="phase" value="phaheur">
+                            <input type="hidden" name="phaseinitial" value="bandelimitee">
+                            <input type="hidden" name="cuantificar" value="SI">
+                            <div class="panel panel-info setup-content" id="step-1">
+                                <div class="panel-heading">
+                                     <h3 class="panel-title">Imagen a reconstruir</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="col-sm-12">
+                                        <div class="col-sm-6">
+                                            <img id="imagen" class="img-rounded" width="360px" height="240">
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group" data-toggle="tooltip" data-placement="top" title="La imagen de entrada de la cual se va a generar el holograma">
+                                                <input type="file" id="archivo" name="OBJ" required="required" class="filestyle" data-buttonName="btn-primary" data-buttonText="Cargar imagen">
+                                            </div>
+                                            <p style="margin-top: 25px">
+                                                <i>
+                                                    A partir de la <strong>imagen</strong> subida se generara el holograma
+                                                </i>
+                                            </p>
+                                            <div class="col-xs-6">
+                                                <div class="row">
+                                                    <div class="form-group" style="margin: 10px 0px;">                        
+                                                        <label class="control-label">Tamaño de imagen</label>
+                                                        <input type="number" class="form-control" required="required" id="tailleimg" disabled="disabled" name="tailleimg" style="text-align:right" data-toggle="tooltip" data-placement="top" title="El tamaño de la imagen"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary nextBtn pull-right" type="button">Siguiente</button>
+                                </div>
+                            </div>
+                            <div class="panel panel-primary setup-content" id="step-2">
+                                <div class="panel-heading">
+                                     <h3 class="panel-title">Tipo de Aplicación</h3>
+                                </div>
+                                <div class="panel-body">                                    
+                                    <div class="col-sm-6" title="(speckle) fluctuaciones grandes de intensidad que perturban la reconstrucción obtenida ópticamente">
+                                        <div class="radio text-center" style="margin: 10px 0px;">
+                                            <label>
+                                                <input type="checkbox" name="a_optica" id="a_optica" checked onchange="app.aplicacionOptica(this)"> Aplicación óptica (libre de speckles)
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6" style="margin: 10px 0px;">
+                                        <div class="form-group">                        
+                                            <label class="control-label">Tamaño de señal incidente</label>
+                                            <input class="form-control" type="number" required="required" id="taillesignal" data-toggle="tooltip" data-placement="top" title="El tamaño del haz de luz"/>
+                                        </div>
+                                        <div class="form-group">                        
+                                            <label class="control-label">Tamaño del holograma</label>
+                                            <input class="form-control" type="number" required="required" id="tailleholo" data-toggle="tooltip" data-placement="top" title="El tamaño de salida del holograma"/>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary prevBtn pull-left" type="button">Anterior</button>
+                                    <button class="btn btn-primary nextBtn pull-right" type="button">Siguiente</button>
+                                </div>
+                            </div>
+                            <div class="panel panel-primary setup-content" id="step-3">
+                                <div class="panel-heading">
+                                     <h3 class="panel-title">Cuantificar</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="col-sm-6">
+                                        <div class="radio" style="margin: 10px 0px;">
+                                            <label data-toggle="tooltip" data-placement="top" title="Si la finalidad del holograma va a ser Analógico o cuantificado">
+                                                <input type="checkbox" name="cuantificar_holograma" checked onchange="app.cuantificarHolograma(this)"> Cuantificar holograma
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">                                    
+                                        <div class="form-group" style="margin: 10px 0px;">
+                                            <label for="niveaux" class="control-label">Niveles de fase</label>
+                                            <input class="form-control" type="number" id="niveaux" data-toggle="tooltip" data-placement="top" min="1" max="254" required="required" title="nivel enque va a ser cuantificado el holograma" style="text-align:right"/>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary prevBtn pull-left" type="button">Anterior</button>
+                                    <button class="btn btn-primary nextBtn pull-right" type="button">Siguiente</button>
+                                </div>
+                            </div>
+                            <div class="panel panel-primary setup-content" id="step-4">
+                                <div class="panel-heading">
+                                     <h3 class="panel-title">Parametros de relajación y estabilización.</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="col-md-12">
+                                        <h3>Analógico</h3>
+                                        <div class="row">
+                                            <div class="col-md-6">               
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="form-group"><!--(PRs)-->
+                                                            <label for="analogo_PRs" class="control-label col-md-8" title="Parámetro constante de relajación" >Regulación señal</label>
+                                                            <div class="col-md-4">
+                                                                <input class="form-control text-right" id="analogo_PRs" type="number" max="1" min="0"/>
+                                                            </div>
+                                                        </div>         
+                                                        <div class="form-group"><!--(PRb)-->
+                                                            <label for="analogo_PRb" class="control-label col-md-8" title="parámetro constante de estabilización" >Regulación ruido</label>
+                                                            <div class="col-md-4">
+                                                                <input class="form-control text-right" id="analogo_PRb" type="number" max="1" min="0" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">               
+                                                <div class="row">
+                                                    <div class="col-md-12" >
+                                                        <div class="form-group">
+                                                            <label  for="analogo_DPRA" class="control-label col-md-8" title="Parametro de estabilización adaptativa">Estabilización adaptativa</label>
+                                                            <div class="col-md-4">
+                                                                <input class="form-control text-right" id="analogo_DPRA" type="number" max="1" min="0"/>
+                                                            </div>
+                                                        </div>         
+                                                        <div class="form-group">
+                                                            <label for="analogo_DPLRA" class="control-label col-md-8" title="Parametro de estabilización adaptativa">Relajación adaptativa</label>
+                                                            <div class="col-md-4">
+                                                                <input class="form-control text-right" id="analogo_DPLRA" type="number" max="1" min="0"/>
+                                                            </div>
+                                                        </div>  
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group" style="margin: 10px 0px;">
+                                            <label for="iteranalogo" class="control-label col-md-8">Número de interacciones</label>
+                                            <div class="col-md-4">
+                                                <input class="form-control text-right" id="iteranalogo" type="number" required="required" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 cuantificar">
+                                        <h3>Cuantificación</h3>
+                                        <div class="row">
+                                            <div class="col-md-6">               
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="form-group"><!--(PRs)-->
+                                                            <label for="cuantificar_PRs" class="control-label col-md-8" title="Parámetro constante de relajación" >Regulación señal</label>
+                                                            <div class="col-md-4">
+                                                                <input class="form-control text-right" id="cuantificar_PRs" type="number" max="1" min="0"/>
+                                                            </div>
+                                                        </div>         
+                                                        <div class="form-group"><!--(PRb)-->
+                                                            <label for="cuantificar_PRb" class="control-label col-md-8" title="parámetro constante de estabilización">Regulación ruido</label>
+                                                            <div class="col-md-4">
+                                                                <input class="form-control text-right" id="cuantificar_PRb" type="number" max="1" min="0" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">               
+                                                <div class="row">
+                                                    <div class="col-md-12" >
+                                                        <div class="form-group">
+                                                            <label  for="cuantificar_DPRA" class="control-label col-md-8" title="Parametro de estabilización adaptativa">Estabilización adaptativa</label>
+                                                            <div class="col-md-4">
+                                                                <input class="form-control text-right" id="cuantificar_DPRA" type="number" max="1" min="0"/>
+                                                            </div>
+                                                        </div>         
+                                                        <div class="form-group">
+                                                            <label for="cuantificar_DPLRA" class="control-label col-md-8" title="Parametro de estabilización adaptativa">Relajación adaptativa</label>
+                                                            <div class="col-md-4">
+                                                                <input class="form-control text-right" id="cuantificar_DPLRA" type="number" max="1" min="0"/>
+                                                            </div>
+                                                        </div>  
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 cuantificar">
+                                        <div class="form-group" style="margin: 10px 0px;">
+                                            <label for="iterquantization" class="control-label col-md-8">Número de interacciones</label>
+                                            <div class="col-md-4">
+                                                <input class="form-control text-right" id="iterquantization" type="number" required="required" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12" style="margin-top: 20px">
+                                        <button class="btn btn-primary prevBtn pull-left" type="button">Anterior</button>
+                                    <button class="btn btn-primary pull-right" onclick="app.empezar()" type="button">Comenzar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row" id="portfolio-analogico">
+                <h2 class="text-center">Analogico</h2>
+                <div class="col-md-4">
+                    <div class="table-responsive">
+                        <table class="table table-bordered" style="background: white">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">
+                                        Parámetros de calidad
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Error cuadrático medio</td>
+                                    <td class="text-right" id="analogico-eqm">0</td>
+                                </tr>
+                                <tr>
+                                    <td>Eficiencia difracción</td>
+                                    <td class="text-right" id="analogico-ed">0</td>
+                                </tr>
+                                <tr>
+                                    <td>Razón señal ruido</td>
+                                    <td class="text-right" id="analogico-rsb">0</td>
+                                </tr>
+                                <tr style="display: none;">
+                                    <td>U</td>
+                                    <td class="text-right" id="analogico-u">0</td>
+                                </tr>
+                                <tr style="display: none;">
+                                    <td>ZB</td>
+                                    <td class="text-right" id="analogico-zb">0</td>
+                                </tr>
+                                <tr  style="display: none;">
+                                    <td>DS</td>
+                                    <td class="text-right" id="analogico-ds">0</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img id="holograma-analogico" src="{{url_for('static', filename='img/portfolio/golden.png')}}" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                <i class="fa fa-download"></i> Descargar holograma
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu pull-right" role="menu" id="descargar-holograma-analogico"></ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img id="reconstruccion-analogica" src="{{url_for('static', filename='img/portfolio/treehouse.png')}}" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                <i class="fa fa-download"></i> Descargar Imagen a reconstruir
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu pull-right" role="menu" id="descargar-reconstruccion-analogica"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="portfolio-cuantificado" style="display: none;">
+                <h2 class="text-center">Cuantificado</h2>
+                <div class="col-md-4">
+                    <div class="table-responsive">
+                        <table class="table table-bordered" style="background: white">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">
+                                        Parámetros de calidad
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Error cuadrático medio</td>
+                                    <td class="text-right" id="cuantificado-eqm">0</td>
+                                </tr>
+                                <tr>
+                                    <td>Eficiencia difracción</td>
+                                    <td class="text-right" id="cuantificado-ed">0</td>
+                                </tr>
+                                <tr>
+                                    <td>Razón señal ruido</td>
+                                    <td class="text-right" id="cuantificado-rsb">0</td>
+                                </tr>
+                                <tr style="display: none;">
+                                    <td>U</td>
+                                    <td class="text-right" id="cuantificado-u">0</td>
+                                </tr>
+                                <tr style="display: none;">
+                                    <td>ZB</td>
+                                    <td class="text-right" id="cuantificado-zb">0</td>
+                                </tr>
+                                <tr style="display: none;">
+                                    <td>DS</td>
+                                    <td class="text-right" id="cuantificado-ds">0</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <!-- href="#portfolioModal4" data-toggle="modal"-->
+                    <a class="portfolio-link">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img id="holograma-cuantificado" src="{{url_for('static', filename='img/portfolio/golden.png')}}" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                <i class="fa fa-download"></i> Descargar holograma
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu pull-right" role="menu" id="descargar-holograma-cuantificado"></ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <!-- href="#portfolioModal3" data-toggle="modal"-->
+                    <a class="portfolio-link">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img id="reconstruccion-cuantificado" src="{{url_for('static', filename='img/portfolio/treehouse.png')}}" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                <i class="fa fa-download"></i> Descargar Imagen a reconstruir
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu pull-right" role="menu" id="descargar-reconstruccion-cuantificado"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Your Website 2016</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Imagen</h2>
+                                <p class="item-intro text-muted">Objeto imagen de la cual se va a construir el holograma.</p>
+                                <img class="img-responsive img-centered" id="imagen-signal-1" src="{{url_for('static', filename='img/portfolio/treehouse-preview.png')}}" alt="">
+                                
+                                <!--<p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
+                                -->
+
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                        <i class="fa fa-download"></i> Descargar
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu pull-right" role="menu" id="descargar-imagen_1">
+                                    </ul>
+                                </div>
+                                <!--<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>EOD</h2>
+                                <p class="item-intro text-muted">EOD formado a partir de la imagen.</p>
+                                <img class="img-responsive img-centered" id="imagen-holo-1" src="{{url_for('static', filename='img/portfolio/golden-preview.png')}}" alt="">
+                                <!--<p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>-->
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                        <i class="fa fa-download"></i> Descargar
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu pull-right" role="menu" id="descargar-holo_1">
+                                        
+                                    </ul>
+                                </div>
+
+                                <!--<button type="button" class="btn btn-primary" onclick="app.descargarHolograma()"><i class="fa fa-download"></i> Descargar</button>-->
+                                <!--<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="{{url_for('static', filename='img/portfolio/escape-preview.png')}}" alt="">
+                                <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="{{url_for('static', filename='img/portfolio/dreams-preview.png')}}" alt="">
+                                <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade bs-example-popover" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" id="modalEspera">
+        <div class="modal-dialog" style="margin-top: 10%;">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="titulo-estado">Operación en progreso. </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row" ng-show="true">
+                        
+                        <div class="row">
+                            <div class="col-xs-12 text-center">
+                                <img style="width:100px; height:100px;" src="{{url_for('static', filename='img/loadingif.gif')}}" />
+                            </div>
+                        </div>
+                        <div class="col-sm-12 text-center">
+                            <label>
+                                Por favor  espere un momento....!
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+    <!-- jQuery -->
+    <script src="{{url_for('static', filename='vendor/jquery/jquery.min.js')}}"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{url_for('static', filename='vendor/bootstrap/js/bootstrap.min.js')}}"></script>
+
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+
+    <script src="{{url_for('static', filename='js/agency.min.js')}}"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="{{url_for('static', filename='js/jqBootstrapValidation.js')}}"></script>
+    <script src="{{url_for('static', filename='js/contact_me.js')}}"></script>
+    <script src="{{url_for('static', filename='js/bootstrap-filestyle.min.js')}}"></script>
+    <script src="{{url_for('static', filename='js/toaster.js')}}"></script>
+    <script src="{{url_for('static', filename='js/parametros.js')}}"></script>
+    <script src="{{url_for('static', filename='js/holoeasy.js')}}"></script>
+    <!-- Forms Validations Plugin -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var navListItems = $('div.setup-panel div a'),
+                allWells = $('.setup-content'),
+                allPrevBtn = $('.prevBtn');
+                allNextBtn = $('.nextBtn');
+
+            allWells.hide();
+
+            navListItems.click(function (e) {
+                e.preventDefault();
+                var $target = $($(this).attr('href')),
+                    $item = $(this);
+
+                if (!$item.hasClass('disabled')) {
+                    navListItems.removeClass('btn-success').addClass('btn-default');
+                    $item.addClass('btn-success');
+                    allWells.hide();
+                    $target.show();
+                    $target.find('input:eq(0)').focus();
+                }
+            });
+            allPrevBtn.click(function () {
+                var curStep = $(this).closest(".setup-content"),
+                    curStepBtn = curStep.attr("id"),
+                    nextStepWizard = $('div.setup-panel div a[href="#' + curStepBtn + '"]').parent().prev().children("a"),
+                    curInputs = curStep.find("input[type='text'],input[type='url']"),
+                    isValid = true;
+
+                /*$(".form-group").removeClass("has-error");
+                for (var i = 0; i < curInputs.length; i++) {
+                    if (!curInputs[i].validity.valid) {
+                        isValid = false;
+                        $(curInputs[i]).closest(".form-group").addClass("has-error");
+                    }
+                }*/
+
+                if (isValid) nextStepWizard.removeAttr('disabled').trigger('click');
+            });
+            allNextBtn.click(function () {
+                var curStep = $(this).closest(".setup-content"),
+                    curStepBtn = curStep.attr("id"),
+                    nextStepWizard = $('div.setup-panel div a[href="#' + curStepBtn + '"]').parent().next().children("a"),
+                    curInputs = curStep.find("input[type='text'],input[type='url'],input[type='file'],input[type='number']"),
+                    isValid = true;
+
+                $(".form-group").removeClass("has-error");
+                for (var i = 0; i < curInputs.length; i++) {
+                    if (!curInputs[i].validity.valid) {
+                        isValid = false;
+                        $(curInputs[i]).closest(".form-group").addClass("has-error");
+                    }
+                }
+
+                if (isValid) nextStepWizard.removeAttr('disabled').trigger('click');
+            });
+            $('div.setup-panel div a.btn-success').trigger('click');
+
+            $('html, body').animate({
+                scrollTop: $("#page-top").offset().top
+            }, 0);
+        });
+
+    </script>
+
+</html>

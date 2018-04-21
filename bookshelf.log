@@ -1,0 +1,55 @@
+2017-09-25 07:59:38,394 - __main__ - WARNING - A warning message is sent.
+2017-09-25 07:59:38,394 - __main__ - ERROR - An error message is sent.
+2017-09-25 07:59:38,398 - __main__ - INFO - Information: 3 + 2 = 5
+2017-09-25 08:45:06,529 - __main__ - ERROR - (2003, "Can't connect to MySQL server on 'localhost' (10061)")
+2017-09-25 10:41:23,095 - __main__ - ERROR - (2003, "Can't connect to MySQL server on 'localhost' (10061)")
+2017-09-25 11:00:11,976 - __main__ - ERROR - (2003, "Can't connect to MySQL server on 'localhost' (10061)")
+2017-09-25 11:03:55,315 - __main__ - ERROR - (2003, "Can't connect to MySQL server on 'localhost' (10061)")
+2017-09-25 11:04:09,608 - __main__ - ERROR - (2003, "Can't connect to MySQL server on 'localhost' (10061)")
+2017-09-25 11:04:16,039 - __main__ - ERROR - (2003, "Can't connect to MySQL server on 'localhost' (10061)")
+2017-09-25 11:04:51,434 - __main__ - ERROR - (2003, "Can't connect to MySQL server on 'localhost' (10061)")
+2017-09-25 11:07:01,009 - __main__ - ERROR - (2003, "Can't connect to MySQL server on 'localhost' (10061)")
+2017-09-25 11:09:10,686 - __main__ - ERROR - (2003, "Can't connect to MySQL server on 'localhost' (10061)")
+2017-09-25 13:33:29,983 - __main__ - ERROR - (2003, "Can't connect to MySQL server on 'localhost' (10061)")
+2017-09-25 13:35:30,244 - __main__ - ERROR - (2003, "Can't connect to MySQL server on 'localhost' (10061)")
+2017-09-25 13:36:26,482 - __main__ - ERROR - (2003, "Can't connect to MySQL server on 'localhost' (10061)")
+2017-09-25 13:37:47,111 - __main__ - ERROR - (2003, "Can't connect to MySQL server on 'localhost' (10061)")
+2017-09-25 13:43:09,857 - __main__ - ERROR - (2003, "Can't connect to MySQL server on 'localhost' (10061)")
+2017-09-25 13:50:07,424 - __main__ - ERROR - (2003, "Can't connect to MySQL server on 'localhost' (10061)")
+2017-09-25 13:51:53,911 - __main__ - ERROR - (2003, "Can't connect to MySQL server on 'localhost' (10061)")
+2017-09-25 13:53:14,897 - __main__ - ERROR - (2003, "Can't connect to MySQL server on 'localhost' (10061)")
+2017-09-25 13:53:28,144 - __main__ - ERROR - (2003, "Can't connect to MySQL server on 'localhost' (10061)")
+2017-09-25 13:55:23,905 - __main__ - ERROR - (2003, "Can't connect to MySQL server on 'localhost' (10061)")
+2017-10-02 21:36:48,430 - __main__ - ERROR - global name 'pi' is not defined
+2017-10-02 21:49:13,282 - __main__ - ERROR - __init__() takes exactly 3 arguments (2 given)
+2017-10-02 22:01:47,868 - __main__ - ERROR - global name 'phase' is not defined
+2017-10-04 19:40:31,372 - __main__ - ERROR - invalid literal for int() with base 10: ''
+2017-10-04 19:44:17,440 - __main__ - ERROR - operands could not be broadcast together with shapes (245,245) (244,244) 
+2017-10-04 19:54:49,194 - __main__ - ERROR - operands could not be broadcast together with shapes (246,246) (492,492) 
+2017-10-17 13:26:00,588 - __main__ - ERROR - tuple index out of range
+2017-10-22 19:56:58,714 - __main__ - ERROR - tuple index out of range
+2017-10-22 19:58:54,910 - __main__ - ERROR - tuple index out of range
+2017-10-22 20:02:32,084 - __main__ - ERROR - str_error: tuple index out of range
+2017-10-22 20:03:23,437 - __main__ - ERROR - str_error: tuple index out of range
+2017-10-22 20:04:02,798 - __main__ - ERROR - str_error: tuple index out of range
+2017-10-22 20:05:08,517 - __main__ - ERROR - tuple index out of range
+2017-10-22 20:07:43,516 - __main__ - ERROR - tuple index out of range
+2017-10-22 20:08:40,911 - __main__ - ERROR - tuple index out of range
+2017-10-22 20:18:23,266 - __main__ - ERROR - tuple index out of range
+2017-10-22 20:18:34,421 - __main__ - ERROR - tuple index out of range
+2017-10-22 20:18:38,698 - __main__ - ERROR - tuple index out of range
+2017-10-22 20:20:26,207 - __main__ - ERROR - 'iteraccion'
+2017-10-22 20:22:58,878 - __main__ - ERROR - tuple index out of range
+2017-10-22 20:26:11,362 - __main__ - ERROR - (1054, "Unknown column 'analogo_iteraccion' in 'field list'")
+2017-10-22 20:33:11,256 - __main__ - ERROR - (1054, "Unknown column 'DPRA' in 'field list'")
+2017-10-22 20:38:01,237 - __main__ - ERROR - (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'WHERE `id_holograma` = "57"\' at line 1')
+2017-10-22 20:49:51,144 - __main__ - ERROR - 'iteranalog'
+2017-10-22 21:53:52,628 - __main__ - ERROR - global name 'e' is not defined
+2017-10-22 21:54:33,851 - __main__ - ERROR - __init__() takes exactly 3 arguments (2 given)
+2017-10-22 21:55:22,328 - __main__ - ERROR - 
+2017-10-22 21:58:02,733 - __main__ - ERROR - global name 'os' is not defined
+2017-10-22 22:21:30,000 - __main__ - ERROR - invalid literal for int() with base 10: ''
+2017-10-23 01:00:41,039 - __main__ - ERROR - argument of type 'float' is not iterable
+2017-10-23 01:03:56,290 - __main__ - ERROR - argument of type 'float' is not iterable
+2017-10-23 01:04:51,862 - __main__ - ERROR - argument of type 'float' is not iterable
+2017-10-23 01:08:18,516 - __main__ - ERROR - argument of type 'float' is not iterable

@@ -1,0 +1,122 @@
+@media (min-width: 992px){
+    .typo-line{
+        padding-left: 140px;
+        margin-bottom: 40px;
+        position: relative;
+    }
+
+    .typo-line .category{
+        transform: translateY(-50%);
+        top: 50%;
+        left: 0px;
+        position: absolute;
+    }
+}
+
+#map{
+    position:relative;
+    width:100%;
+    height: calc(100% - 60px);
+    margin-top: 70px;
+}
+
+.places-buttons .btn{
+    margin-bottom: 30px
+}
+
+.space-70{
+    height: 70px;
+    display: block;
+}
+
+.tim-row{
+    margin-bottom: 20px;
+}
+
+.turbo-typo{
+    padding-left: 25%;
+    margin-bottom: 40px;
+    position: relative;
+}
+.turbo-typo .turbo-note{
+    bottom: 10px;
+    color: #757575;
+    display: block;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 13px;
+    left: 0;
+    margin-left: 20px;
+    position: absolute;
+    width: 260px;
+}
+.tim-row{
+    padding-top: 50px;
+}
+.tim-row h3{
+    margin-top: 0;
+}
+
+
+
+/*-------------------------------------
+    Icons
+--------------------------------------*/
+.icons-card{
+	
+}
+.icons-card ul{
+	padding-left: 0;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+    list-style: none;
+    overflow: hidden;
+}
+.icons-card ul li{
+	float: left;
+    width: 25%;
+    height: 100px;
+    padding: 10px;
+    margin: 0 -1px -1px 0;
+    
+    line-height: 1.4;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+.icons-card ul li:hover {
+    background-color: rgba(86,61,124,.1);
+}
+
+@media (min-width: 768px){
+.icons-card ul li{
+    width: 10%;
+}
+}
+
+.icons-card .card-content .zmdi {
+    font-size: 30px;
+    vertical-align: middle;
+    color: #333;
+}
+
+.icons-card .card-content ul li span {
+	font-size: 13px;
+    margin-top: 10px;
+    color: #5e5e5e;
+    display: block;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+
+/*-------------------------------------
+    Cards
+--------------------------------------*/
+#button-dropdown{
+	margin-left:50px;
+}
+
+#invoice-logo{
+	width:250px;
+}
+
