@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37b778ba-4d00-4235-b2fa-6a4ce143b207" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modulos/config.py" afterPath="$PROJECT_DIR$/modulos/config.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,12 +13,73 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="holoeasy.wsgi" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/holoeasy.wsgi">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Modelo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modulos/Modelo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="42" />
+            <state relative-caret-position="1962">
+              <caret line="116" column="53" lean-forward="false" selection-start-line="116" selection-start-column="53" selection-end-line="116" selection-end-column="53" />
+              <folding>
+                <marker date="1523844947000" expanded="true" signature="2605:2687" ph="SELECT codig... holograma" />
+                <marker date="1523844947000" expanded="true" signature="3082:3205" ph="INSERT INTO holograma... " />
+                <marker date="1523844947000" expanded="true" signature="3411:3978" ph="INSERT INTO `bd_holoeasy`.`senal_reconstruir`... " />
+                <marker date="1523844947000" expanded="true" signature="4610:4730" ph="INSERT INTO `calculo_oid`... " />
+                <marker date="1523844947000" expanded="true" signature="5126:5344" ph="INSERT INTO `holograma_cuantificado`... " />
+                <marker date="1523844947000" expanded="true" signature="6346:6446" ph="INSERT INTO `holograma_analogico`... " />
+                <marker date="1523844947000" expanded="true" signature="6694:7047" ph="UPDATE `bd_h... " />
+                <marker date="1523844947000" expanded="true" signature="7404:7782" ph="INSERT INTO `bd_holoeasy`.`parametros_regulacion`... " />
+                <marker date="1523844947000" expanded="true" signature="8224:8402" ph="UPDATE `bd_h... " />
+                <marker date="1523844947000" expanded="true" signature="8813:9081" ph="UPDATE `bd_h... " />
+                <marker date="1523844947000" expanded="true" signature="9907:10109" ph="SELECT `id_h... senal_reconstruir" />
+                <marker date="1523844947000" expanded="true" signature="10775:10872" ph="SELECT `idca... calculo_oid" />
+                <marker date="1523844947000" expanded="true" signature="11238:11473" ph="SELECT `tipo... senal_reconstruir" />
+                <marker date="1523844947000" expanded="true" signature="11764:12014" ph="SELECT `tail... senal_reconstruir" />
+                <marker date="1523844947000" expanded="true" signature="13359:13787" ph="SELECT `tail... senal_reconstruir" />
+                <marker date="1523844947000" expanded="true" signature="14471:14668" ph="SELECT `anal... parametros_regulacion" />
+                <marker date="1523844947000" expanded="true" signature="14718:14935" ph="SELECT `cuan... parametros_regulacion" />
+                <marker date="1523844947000" expanded="true" signature="15168:15585" ph="SELECT `p1`,... senal_reconstruir" />
+                <marker date="1523844947000" expanded="true" signature="16466:16871" ph="SELECT `nive... senal_reconstruir" />
+                <marker date="1523844947000" expanded="true" signature="17857:17992" ph="INSERT INTO correo... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignalReconstruir.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modulos/SignalReconstruir.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="principal.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modulos/principal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4752">
+              <caret line="264" column="15" lean-forward="false" selection-start-line="264" selection-start-column="15" selection-end-line="264" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Correo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modulos/Correo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Analogique.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modulos/Analogique.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -26,14 +88,59 @@
       <file leaf-file-name="config.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modulos/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+            <state relative-caret-position="198">
+              <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="holoeasy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/holoeasy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3060">
+              <caret line="177" column="76" lean-forward="false" selection-start-line="177" selection-start-column="72" selection-end-line="177" selection-end-column="76" />
+              <folding>
+                <element signature="e#27#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Excepciones.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modulos/Excepciones.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Validator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modulos/Validator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>error con</find>
+      <find>signala</find>
+      <find>signal_a_reconstruire</find>
+      <find>loggin</find>
+      <find>logg</find>
+      <find>logging</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,7 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -86,10 +192,21 @@
               <item name="holoeasy" type="462c0819:PsiDirectoryNode" />
               <item name="modulos" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="holoeasy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="holoeasy" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="holoeasy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="holoeasy" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -145,24 +262,24 @@
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25538972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -177,18 +294,415 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/holoeasy.wsgi">
+    <entry file="file://$PROJECT_DIR$/modulos/Modelo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="42" />
+        <state relative-caret-position="1962">
+          <caret line="116" column="53" lean-forward="false" selection-start-line="116" selection-start-column="53" selection-end-line="116" selection-end-column="53" />
+          <folding>
+            <marker date="1523844947000" expanded="true" signature="2605:2687" ph="SELECT codig... holograma" />
+            <marker date="1523844947000" expanded="true" signature="3082:3205" ph="INSERT INTO holograma... " />
+            <marker date="1523844947000" expanded="true" signature="3411:3978" ph="INSERT INTO `bd_holoeasy`.`senal_reconstruir`... " />
+            <marker date="1523844947000" expanded="true" signature="4610:4730" ph="INSERT INTO `calculo_oid`... " />
+            <marker date="1523844947000" expanded="true" signature="5126:5344" ph="INSERT INTO `holograma_cuantificado`... " />
+            <marker date="1523844947000" expanded="true" signature="6346:6446" ph="INSERT INTO `holograma_analogico`... " />
+            <marker date="1523844947000" expanded="true" signature="6694:7047" ph="UPDATE `bd_h... " />
+            <marker date="1523844947000" expanded="true" signature="7404:7782" ph="INSERT INTO `bd_holoeasy`.`parametros_regulacion`... " />
+            <marker date="1523844947000" expanded="true" signature="8224:8402" ph="UPDATE `bd_h... " />
+            <marker date="1523844947000" expanded="true" signature="8813:9081" ph="UPDATE `bd_h... " />
+            <marker date="1523844947000" expanded="true" signature="9907:10109" ph="SELECT `id_h... senal_reconstruir" />
+            <marker date="1523844947000" expanded="true" signature="10775:10872" ph="SELECT `idca... calculo_oid" />
+            <marker date="1523844947000" expanded="true" signature="11238:11473" ph="SELECT `tipo... senal_reconstruir" />
+            <marker date="1523844947000" expanded="true" signature="11764:12014" ph="SELECT `tail... senal_reconstruir" />
+            <marker date="1523844947000" expanded="true" signature="13359:13787" ph="SELECT `tail... senal_reconstruir" />
+            <marker date="1523844947000" expanded="true" signature="14471:14668" ph="SELECT `anal... parametros_regulacion" />
+            <marker date="1523844947000" expanded="true" signature="14718:14935" ph="SELECT `cuan... parametros_regulacion" />
+            <marker date="1523844947000" expanded="true" signature="15168:15585" ph="SELECT `p1`,... senal_reconstruir" />
+            <marker date="1523844947000" expanded="true" signature="16466:16871" ph="SELECT `nive... senal_reconstruir" />
+            <marker date="1523844947000" expanded="true" signature="17857:17992" ph="INSERT INTO correo... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/SignalReconstruir.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/principal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4752">
+          <caret line="264" column="15" lean-forward="false" selection-start-line="264" selection-start-column="15" selection-end-line="264" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/Analogique.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/Correo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/holoeasy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="177" column="76" lean-forward="false" selection-start-line="177" selection-start-column="72" selection-end-line="177" selection-end-column="76" />
+          <folding>
+            <element signature="e#27#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/Excepciones.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/Validator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modulos/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        <state relative-caret-position="108">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/Modelo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1962">
+          <caret line="116" column="53" lean-forward="false" selection-start-line="116" selection-start-column="53" selection-end-line="116" selection-end-column="53" />
+          <folding>
+            <marker date="1523844947000" expanded="true" signature="2605:2687" ph="SELECT codig... holograma" />
+            <marker date="1523844947000" expanded="true" signature="3082:3205" ph="INSERT INTO holograma... " />
+            <marker date="1523844947000" expanded="true" signature="3411:3978" ph="INSERT INTO `bd_holoeasy`.`senal_reconstruir`... " />
+            <marker date="1523844947000" expanded="true" signature="4610:4730" ph="INSERT INTO `calculo_oid`... " />
+            <marker date="1523844947000" expanded="true" signature="5126:5344" ph="INSERT INTO `holograma_cuantificado`... " />
+            <marker date="1523844947000" expanded="true" signature="6346:6446" ph="INSERT INTO `holograma_analogico`... " />
+            <marker date="1523844947000" expanded="true" signature="6694:7047" ph="UPDATE `bd_h... " />
+            <marker date="1523844947000" expanded="true" signature="7404:7782" ph="INSERT INTO `bd_holoeasy`.`parametros_regulacion`... " />
+            <marker date="1523844947000" expanded="true" signature="8224:8402" ph="UPDATE `bd_h... " />
+            <marker date="1523844947000" expanded="true" signature="8813:9081" ph="UPDATE `bd_h... " />
+            <marker date="1523844947000" expanded="true" signature="9907:10109" ph="SELECT `id_h... senal_reconstruir" />
+            <marker date="1523844947000" expanded="true" signature="10775:10872" ph="SELECT `idca... calculo_oid" />
+            <marker date="1523844947000" expanded="true" signature="11238:11473" ph="SELECT `tipo... senal_reconstruir" />
+            <marker date="1523844947000" expanded="true" signature="11764:12014" ph="SELECT `tail... senal_reconstruir" />
+            <marker date="1523844947000" expanded="true" signature="13359:13787" ph="SELECT `tail... senal_reconstruir" />
+            <marker date="1523844947000" expanded="true" signature="14471:14668" ph="SELECT `anal... parametros_regulacion" />
+            <marker date="1523844947000" expanded="true" signature="14718:14935" ph="SELECT `cuan... parametros_regulacion" />
+            <marker date="1523844947000" expanded="true" signature="15168:15585" ph="SELECT `p1`,... senal_reconstruir" />
+            <marker date="1523844947000" expanded="true" signature="16466:16871" ph="SELECT `nive... senal_reconstruir" />
+            <marker date="1523844947000" expanded="true" signature="17857:17992" ph="INSERT INTO correo... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/SignalReconstruir.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/principal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4752">
+          <caret line="264" column="15" lean-forward="false" selection-start-line="264" selection-start-column="15" selection-end-line="264" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/Correo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/Analogique.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/holoeasy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="177" column="76" lean-forward="false" selection-start-line="177" selection-start-column="72" selection-end-line="177" selection-end-column="76" />
+          <folding>
+            <element signature="e#27#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/Excepciones.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/Validator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/Modelo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1962">
+          <caret line="116" column="53" lean-forward="false" selection-start-line="116" selection-start-column="53" selection-end-line="116" selection-end-column="53" />
+          <folding>
+            <marker date="1523844947000" expanded="true" signature="2605:2687" ph="SELECT codig... holograma" />
+            <marker date="1523844947000" expanded="true" signature="3082:3205" ph="INSERT INTO holograma... " />
+            <marker date="1523844947000" expanded="true" signature="3411:3978" ph="INSERT INTO `bd_holoeasy`.`senal_reconstruir`... " />
+            <marker date="1523844947000" expanded="true" signature="4610:4730" ph="INSERT INTO `calculo_oid`... " />
+            <marker date="1523844947000" expanded="true" signature="5126:5344" ph="INSERT INTO `holograma_cuantificado`... " />
+            <marker date="1523844947000" expanded="true" signature="6346:6446" ph="INSERT INTO `holograma_analogico`... " />
+            <marker date="1523844947000" expanded="true" signature="6694:7047" ph="UPDATE `bd_h... " />
+            <marker date="1523844947000" expanded="true" signature="7404:7782" ph="INSERT INTO `bd_holoeasy`.`parametros_regulacion`... " />
+            <marker date="1523844947000" expanded="true" signature="8224:8402" ph="UPDATE `bd_h... " />
+            <marker date="1523844947000" expanded="true" signature="8813:9081" ph="UPDATE `bd_h... " />
+            <marker date="1523844947000" expanded="true" signature="9907:10109" ph="SELECT `id_h... senal_reconstruir" />
+            <marker date="1523844947000" expanded="true" signature="10775:10872" ph="SELECT `idca... calculo_oid" />
+            <marker date="1523844947000" expanded="true" signature="11238:11473" ph="SELECT `tipo... senal_reconstruir" />
+            <marker date="1523844947000" expanded="true" signature="11764:12014" ph="SELECT `tail... senal_reconstruir" />
+            <marker date="1523844947000" expanded="true" signature="13359:13787" ph="SELECT `tail... senal_reconstruir" />
+            <marker date="1523844947000" expanded="true" signature="14471:14668" ph="SELECT `anal... parametros_regulacion" />
+            <marker date="1523844947000" expanded="true" signature="14718:14935" ph="SELECT `cuan... parametros_regulacion" />
+            <marker date="1523844947000" expanded="true" signature="15168:15585" ph="SELECT `p1`,... senal_reconstruir" />
+            <marker date="1523844947000" expanded="true" signature="16466:16871" ph="SELECT `nive... senal_reconstruir" />
+            <marker date="1523844947000" expanded="true" signature="17857:17992" ph="INSERT INTO correo... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/SignalReconstruir.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/principal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4752">
+          <caret line="264" column="15" lean-forward="false" selection-start-line="264" selection-start-column="15" selection-end-line="264" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/Correo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/Analogique.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/Excepciones.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/Validator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/holoeasy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="177" column="76" lean-forward="false" selection-start-line="177" selection-start-column="72" selection-end-line="177" selection-end-column="76" />
+          <folding>
+            <element signature="e#27#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/holoeasy.wsgi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/iftaWyrowski.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1658">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/SignalReconstruir.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/Correo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/Analogique.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="369" column="13" lean-forward="false" selection-start-line="369" selection-start-column="13" selection-end-line="369" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/Validator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/Excepciones.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/principal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4752">
+          <caret line="264" column="15" lean-forward="false" selection-start-line="264" selection-start-column="15" selection-end-line="264" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/-1247972723/_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="604" column="6" lean-forward="false" selection-start-line="604" selection-start-column="6" selection-end-line="604" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/Modelo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1962">
+          <caret line="116" column="53" lean-forward="false" selection-start-line="116" selection-start-column="53" selection-end-line="116" selection-end-column="53" />
+          <folding>
+            <marker date="1523844947000" expanded="true" signature="2605:2687" ph="SELECT codig... holograma" />
+            <marker date="1523844947000" expanded="true" signature="3082:3205" ph="INSERT INTO holograma... " />
+            <marker date="1523844947000" expanded="true" signature="3411:3978" ph="INSERT INTO `bd_holoeasy`.`senal_reconstruir`... " />
+            <marker date="1523844947000" expanded="true" signature="4610:4730" ph="INSERT INTO `calculo_oid`... " />
+            <marker date="1523844947000" expanded="true" signature="5126:5344" ph="INSERT INTO `holograma_cuantificado`... " />
+            <marker date="1523844947000" expanded="true" signature="6346:6446" ph="INSERT INTO `holograma_analogico`... " />
+            <marker date="1523844947000" expanded="true" signature="6694:7047" ph="UPDATE `bd_h... " />
+            <marker date="1523844947000" expanded="true" signature="7404:7782" ph="INSERT INTO `bd_holoeasy`.`parametros_regulacion`... " />
+            <marker date="1523844947000" expanded="true" signature="8224:8402" ph="UPDATE `bd_h... " />
+            <marker date="1523844947000" expanded="true" signature="8813:9081" ph="UPDATE `bd_h... " />
+            <marker date="1523844947000" expanded="true" signature="9907:10109" ph="SELECT `id_h... senal_reconstruir" />
+            <marker date="1523844947000" expanded="true" signature="10775:10872" ph="SELECT `idca... calculo_oid" />
+            <marker date="1523844947000" expanded="true" signature="11238:11473" ph="SELECT `tipo... senal_reconstruir" />
+            <marker date="1523844947000" expanded="true" signature="11764:12014" ph="SELECT `tail... senal_reconstruir" />
+            <marker date="1523844947000" expanded="true" signature="13359:13787" ph="SELECT `tail... senal_reconstruir" />
+            <marker date="1523844947000" expanded="true" signature="14471:14668" ph="SELECT `anal... parametros_regulacion" />
+            <marker date="1523844947000" expanded="true" signature="14718:14935" ph="SELECT `cuan... parametros_regulacion" />
+            <marker date="1523844947000" expanded="true" signature="15168:15585" ph="SELECT `p1`,... senal_reconstruir" />
+            <marker date="1523844947000" expanded="true" signature="16466:16871" ph="SELECT `nive... senal_reconstruir" />
+            <marker date="1523844947000" expanded="true" signature="17857:17992" ph="INSERT INTO correo... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/holoeasy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="177" column="76" lean-forward="false" selection-start-line="177" selection-start-column="72" selection-end-line="177" selection-end-column="76" />
+          <folding>
+            <element signature="e#27#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="35" />
           <folding />
         </state>
       </provider>
