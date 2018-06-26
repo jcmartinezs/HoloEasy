@@ -20,11 +20,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="-684">
+              <caret line="509" column="30" lean-forward="false" selection-start-line="509" selection-start-column="30" selection-end-line="509" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#9395#23179#0#HTML" expanded="false" />
+                <element signature="e#9416#23200#0#HTML" expanded="false" />
+                <element signature="e#23233#28300#0#HTML" expanded="false" />
+                <element signature="e#39580#39586#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,7 +113,11 @@
       <find>calculo</find>
       <find>gui</find>
       <find>img</find>
+      <find>},</find>
     </findStrings>
+    <replaceStrings>
+      <replace>&lt;/strong&gt;,</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
@@ -645,11 +651,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="-684">
+          <caret line="509" column="30" lean-forward="false" selection-start-line="509" selection-start-column="30" selection-end-line="509" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#9395#23179#0#HTML" expanded="false" />
+            <element signature="e#9416#23200#0#HTML" expanded="false" />
+            <element signature="e#23233#28300#0#HTML" expanded="false" />
+            <element signature="e#39580#39586#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
