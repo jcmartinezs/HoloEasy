@@ -34,6 +34,16 @@
             width: 66%;
             text-align: justify;
         }
+
+        .content-img > img {
+            width: 791px;
+            vertical-align: middle;
+        }
+
+        .content-img > p {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
     </style>
 
 </head>
@@ -114,14 +124,13 @@
 
             <br><br>
             <br><br>
-            <div class="row text-center">
+            <div class="row text-center content-img">
                 <p>
                     The steps that the user must perform to generate the hologram are: <br><br>
 
                     <strong>STEP 1:</strong> Save the desired image on your PC.<br><br>
 
                     <strong>STEP 2:</strong> On the main page click on the Start ítem.
-
                 </p>
 
                 <img class="img-guie" src="{{ url_for('static', filename='img/img001.png') }}">
@@ -192,13 +201,19 @@
                     values of the parameters and the number of iterations can be assigned for the quantization stage.
 
                     Click on Star to start the calculation of the hologram.
-                </p>
+                </p><br>
+
+                <p>At the end of the holograms calculated by the web application are shown (not quantized and
+                    quantized). It also shows the respective reconstruction obtained and the values of the quality
+                    parameters.<br>
+                    The user can save the holograms in different formats</p>
 
                 <img class="img-guie" src="{{ url_for('static', filename='img/img009.png') }}">
 
 
             </div>
         </div>
+    </div>
 </section>
 
 <!-- Services Section -->
@@ -514,9 +529,11 @@
                     <li>Wyrowski, F.: Diffractive optical elements: iterative calculation of quantized, blazed
                         structures, J. Opt. Soc. Am. <strong> 7</strong>, 961--963 (1990)
                     </li>
-                    <li>Pellat-Finet P.: Optique de Fourier, th\'eorie m\'etaxiale et fractionnaire. Springer, Paris (2009)
+                    <li>Pellat-Finet P.: Optique de Fourier, th\'eorie m\'etaxiale et fractionnaire. Springer, Paris
+                        (2009)
                     </li>
-                    <li>Gerchberg R.W., Saxton W.O.: A practical algorithm for the determination of phase from image and diffraction plane pictures. Optik <strong> 35</strong>,
+                    <li>Gerchberg R.W., Saxton W.O.: A practical algorithm for the determination of phase from image and
+                        diffraction plane pictures. Optik <strong> 35</strong>,
                         237--346 (1972)
                     </li>
                     <li> Fienup , J. R.: Reconstruction of an object from the modulus of its Fourier transform, Opt.
@@ -527,7 +544,8 @@
                     </li>
                     Gerchberg R.W.: Super resolution through error energy reduction. Opt. Acta. <strong> 21</strong>,
                     709--20 (1974)</li>
-                    <li>Papoulis, A.: A new algorithm in spectral analysis an band-limited extrapolation. IEEE Trans. Circuits
+                    <li>Papoulis, A.: A new algorithm in spectral analysis an band-limited extrapolation. IEEE Trans.
+                        Circuits
                         System. <strong> 22</strong>, 735-742 (1975)
                     </li>
                     <li> Fienup, J. R.: Phase retrieval algorithm for a complicated optical system. Appl. Opt. <strong>
@@ -537,12 +555,14 @@
                         holography. J. Opt. Soc. A. <strong> 5</strong>, 1058--1064 (1988)
                     </li>
                     Aagedal H., Schmid M., Beth T., Teiwes S., Wyrowski F., Chaussee R.: Theory of speckles in
-                    diffractive optics and its application to beam shaping. J. Mod. Opt. <strong> 43</strong>, 1409--1421
+                    diffractive optics and its application to beam shaping. J. Mod. Opt. <strong> 43</strong>,
+                    1409--1421
                     (1996)</li>
                     <li> Brauer R., Wyrowski F., Bryngdahl O.: Diffuser in digital holography. J. Opt. Am. <strong>
                         8</strong>, 572--578 (1991)
                     </li>
-                    <li>Chhetri B., Serikawa S., Shimomura T.: Heuristic algorithm for calculation of sufficiently randomized object-independent diffuser for
+                    <li>Chhetri B., Serikawa S., Shimomura T.: Heuristic algorithm for calculation of sufficiently
+                        randomized object-independent diffuser for
                         holography. SPIE. <strong> 4113</strong>, 205--216 (2000)
                     </li>
                     <li>Kim H., Lee B.: Iterative Fourier transform algorithm with adaptative regularization parameter
@@ -553,11 +573,13 @@
                         ill-posed problems. Kluwer Academic, Boston (1995)
                     </li>
                     <li> Kotlyar V., Seraphimovich P., Soifer V.: An iterative algorithm for designing diffractive
-                        optical elements with regularization. Optical and Lasers in Engineering. <strong> 29</strong>, 261--68
+                        optical elements with regularization. Optical and Lasers in Engineering. <strong> 29</strong>,
+                        261--68
                         (1998).
                     </li>
                     <li> Kim H., Yang B., Lee B.: Iterative Fourier transform algorithm with regularization for optimal
-                        design of diffractive optical elements. J. Opt. Soc. Am. A. <strong> 21</strong>, 2353--2365 (2004)
+                        design of diffractive optical elements. J. Opt. Soc. Am. A. <strong> 21</strong>, 2353--2365
+                        (2004)
                     </li>
                     <li>Wyrowski, F.: Diffractive optical elements: iterative calculation of quantized, blazed
                         structures. J. Opt. Soc. Am. <strong> 7</strong>, 961--963 (1990)
