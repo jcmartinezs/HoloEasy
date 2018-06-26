@@ -20,10 +20,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="209" column="16" lean-forward="false" selection-start-line="209" selection-start-column="16" selection-end-line="209" selection-end-column="16" />
+            <state relative-caret-position="130">
+              <caret line="205" column="103" lean-forward="false" selection-start-line="205" selection-start-column="92" selection-end-line="205" selection-end-column="103" />
               <folding>
-                <marker date="1530055378555" expanded="false" signature="40381:40387" ph="©" />
+                <marker date="1530055488446" expanded="false" signature="40363:40369" ph="©" />
               </folding>
             </state>
           </provider>
@@ -633,10 +633,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="209" column="16" lean-forward="false" selection-start-line="209" selection-start-column="16" selection-end-line="209" selection-end-column="16" />
+        <state relative-caret-position="130">
+          <caret line="205" column="103" lean-forward="false" selection-start-line="205" selection-start-column="92" selection-end-line="205" selection-end-column="103" />
           <folding>
-            <marker date="1530055378555" expanded="false" signature="40381:40387" ph="©" />
+            <marker date="1530055488446" expanded="false" signature="40363:40369" ph="©" />
           </folding>
         </state>
       </provider>
